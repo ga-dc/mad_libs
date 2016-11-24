@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>Mad Libs</title>
+  <script
+  src="http://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="script.js" charset="utf-8"></script>
   <link href='http://fonts.googleapis.com/css?family=Luckiest+Guy|Lato' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <h2></h2>
+  <p>This is your <span id="noun"></span> <input type="text" placeholder="noun" class="noun"></input>.</p>
+  <p>There are many who think it is <span id="adj"></span><input type="text" placeholder="adjective" class="adj"></input> but this one is yours.</p>
+  <p>You will <span id="verb"></span><input type="text" placeholder="verb" class="verb"></input> it everyday.</p>
+
 
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
