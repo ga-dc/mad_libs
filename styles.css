@@ -35,3 +35,20 @@ h1{
   background: #fff;
   color: #3D1D6B;
 }
+
+button {
+	width: 200px;
+	height: 50px;
+	background: red;
+	color: white;
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#play-btn {
+	width: 200px;
+	height: 50px;
+	background: red;
+	color: white;
+}
