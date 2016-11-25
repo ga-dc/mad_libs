@@ -23,8 +23,14 @@ h1{
 }
 
 .input_form{
-  color: gray;
+  background-color: gray;
   display: inline-block;
+}
+
+.input_form input {
+    text-align: center;
+    color: gray;
+    margin: 1px 2px;
 }
 
 .render{

@@ -6,6 +6,11 @@ $(document).ready(function(){
   //cick render button to show form
   $('.render').on('click', function(){
 
+    //button turns gray
+    $('.render').css('background-color', '#8080ff');
+
+    $('.input_form').hide();
+
     //save inputs into variabls
     var noun_one = $(".noun_1").val();
     var verb_one =  $(".verb_1").val();
@@ -28,4 +33,5 @@ $(document).ready(function(){
     //show filled out form
     $('.render_form').show();
   })
+
 });
