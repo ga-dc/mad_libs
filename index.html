@@ -7,12 +7,43 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <form name="madlibs" class"madlibs">
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <p>
+    <input type="text" name="firstVerb" class="firstVerb" placeholder="verb"><span id="firstVerb"></span>
+    that
+    <input type="text" name="firstNoun" class="firstNoun" placeholder="noun"><span id="firstNoun"></span>
+    like wo
+    <br>
+    <input type="text" name="secondVerb" class="secondVerb" placeholder="verb"><span id="secondVerb"></span>
+    that
+    <input type="text" name="thirdNoun" class="thirdNoun" placeholder="noun"><span id="thirdNoun"></span>
+    like wo
+  </p>
+  <p>
+    This is not a
+    <input type="text" name="fourthNoun" class="fourthNoun" placeholder="noun"><span id="fourthNoun"></span>
+    <br>
+    I already know how you
+    <input type="text" name="thirdVerb" class="thirdVerb" placeholder="verb"><span id="thirdVerb"></span>
+    it
+    <br>
+    Take you to the
+    <input type="text" name="fifthNoun" class="fifthNoun" placeholder="noun"><span id="fifthNoun"></span>
+    and get you a new
+    <input type="text" name="sixthNoun" class="sixthNoun" placeholder="noun"><span id="sixthNoun"></span>
+    <br>
+    Girl that's just some child's play
+  </p>
+  <p>
+    <input type="text" name="fourthVerb" class="fourthVerb" placeholder="verb"><span id="fourthVerb"></span>
+    that
+    <input type="text" name="seventhNoun" class="seventhNoun" placeholder="noun"><span id="seventhNoun"></span>
+    like wo
+  </p>
 
-  <div class="render">Render</div>
+  <div class="render">
+    <input type="button" name="button">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
 </body>

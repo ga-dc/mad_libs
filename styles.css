@@ -23,6 +23,7 @@ h1{
 }
 
 .render{
+  background: none;
   border: 2px solid #fff;
   display:inline-block;
   margin-top:2em;
@@ -34,4 +35,8 @@ h1{
 .render:hover{
   background: #fff;
   color: #3D1D6B;
+}
+
+#wordNoun {
+  display: none;
 }
