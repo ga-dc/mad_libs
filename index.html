@@ -8,9 +8,32 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  
+  <form name="madlibs">
+  <p>"This is a 
+    <span id="spanNounLine1">
+        <input type="text" name="noun" id="nounline1" placeholder="noun">
+    </span> there are many like it, but this one is yours</p>
+  <p>You will 
+    <span id="spanVerbLine2">
+        <input type="text" name="verb" id="verbline2" placeholder="verb">
+    </span> it every day," said the 
+    <span id="spanNounLine2">        
+      <input type="text" name="noun" id="nounline2" placeholder="noun">
+    </span> in a 
+    <span id="spanAdjLine2">
+      <input type="text" name="adjective" id="adjline2" placeholder="adjective">
+    </span> tone</p>
+  <p>Unpleased, I 
+    <span id="spanAdvLine3">
+        <input type="text" name="adverb" id="advline3" placeholder="adverb">
+    </span> 
+    <span id="spanVerbLine3">
+        <input type="text" name="verb" id="verbline3" placeholder="verb">
+      </span> a 
+      <span id="spanNounLine3">
+          <input type="text" name="noun" id="nounline3" placeholder="noun">
+      </span></p></form>
 
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
