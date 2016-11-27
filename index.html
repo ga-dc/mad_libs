@@ -8,10 +8,20 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
-
+  <form name="name-form" id="name-form">
+    <input type="text" name="fnoun" id="fnoun" placeholder="Noun">
+    <input type="text" name="fverb" id="fverb" placeholder="Verb">
+    <input type="text" name="snoun" id="snoun" placeholder="Noun">
+    <input type="text" name="fadj" id="fadj" placeholder="Adjective">
+    <input type="text" name="fadv" id="fadv" placeholder="Adverb">
+    <input type="text" name="sverb" id="sverb" placeholder="Verb">
+    <input type="text" name="tnoun" id="tnoun" placeholder="Noun">
+  </form>
+<div style="display: none;" class="container">
+  <p>"This is a <span id="noun1"> |||noun||| </span> there are many like it, but this one is yours</p>
+  <p>You will <span id="verb1"> |||verb||| </span> it every day," said the <span id="noun2"> |||noun||| </span> in a <span id="adj"> |||adjective||| </span> tone</p>
+  <p>Unpleased, I <span id="adv"> |||adverb||| </span> <span id="verb2"> |||verb||| </span> a <span id="noun3"> |||noun||| </span></p>
+</div>
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
