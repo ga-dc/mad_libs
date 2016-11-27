@@ -8,9 +8,24 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <p>"This is a <span id="n1">
+    <input type="text" name="noun1" id="noun1" placeholder="Noun">
+  </span>. There are many like it, but this one is yours.</p>
+  <p>You will <span id="v1">
+    <input type="text" name="verb1" id="verb1" placeholder="Verb">
+  </span> it every day." Said the <span id="n2">
+    <input type="text" name="noun2" id="noun2" placeholder="Noun">
+  </span> in a <span id="adj1">
+    <input type="text" name="adjective1" id="adjective1" placeholder="Adjective">
+  </span> tone</p>
+  <p>unpleased, I <span id="adv1">
+    <input type="text" name="adverb1" id="adverb1" placeholder="Adverb">
+  </span>
+  <span id="v2">
+    <input type="text" name="verb2" id="verb2" placeholder="Verb">
+  </span> a <span id="n3">
+    <input type="text" name="noun3" id="noun3" placeholder="Noun">.
+  </span></p>
 
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
