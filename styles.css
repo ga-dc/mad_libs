@@ -22,6 +22,11 @@ h1{
   letter-spacing:.05em;
 }
 
+input {
+  width: 8em;
+  font-size: 1em;
+}
+
 .render{
   border: 2px solid #fff;
   display:inline-block;
