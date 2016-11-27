@@ -7,10 +7,35 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <!-- provided code
   <h1>Mad Libs!</h1>
   <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
   <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
   <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+-->
+
+
+<!-- My code -->
+  <h1>Mad Libs!</h1>
+
+  <form class="text" action="index.html" method="post">
+    Please insert the following:
+    <ul>
+      <li><input id="noun1" type="text" name="noun" placeholder="Noun" /></li>
+      <li><input id="verb1" type="text" name="verb" placeholder="Verb" /></li>
+      <li><input id="noun2" type="text" name="noun" placeholder="Noun"></li>
+      <li><input id="adj" type="text" name="adjective" placeholder="Adjective" /></li>
+      <li><input id="adverb" type="text" name="adverb" placeholder="Adverb" /></li>
+      <li><input id="verb2" type="text" name="verb" placeholder="Verb" /></li>
+      <li><input id="noun3" type="text" name="noun" placeholder="Noun" /></li>
+  </form>
+
+  <!-- to be hidden until the values are collected -->
+  <div class="story">
+    <p>"This is a <span id="sNoun1"> |||noun||| </span>, there are many like it, but this one is yours.</p>
+    <p>You will <span id="sVerb1"> |||verb||| </span> it every day," said the <span id="sNoun2"> |||noun||| </span> in a <span id="sAdj"> |||adjective||| </span> tone.</p>
+    <p>Pleased, I <span id="sAdverb"> |||adverb||| </span> <span id="sVerb2"> |||verb||| </span> a <span id="sNoun3"> |||noun||| </span>.</p>
+  </div>
 
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>

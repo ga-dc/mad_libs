@@ -22,6 +22,24 @@ h1{
   letter-spacing:.05em;
 }
 
+ul{
+  list-style: none;
+}
+
+/*
+.story {
+  visibility: hidden;
+}
+*/
+span {
+  font-weight: bold;
+}
+
+input[placeholder] {
+   font-weight: bold;
+   text-align: center;
+}
+
 .render{
   border: 2px solid #fff;
   display:inline-block;
