@@ -8,11 +8,25 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
-
+  <p class="placeHolder">"This is a <span>
+    <input type="text" id="first" value="noun"></input> </span>
+     there are many like it, but this one is yours</p>
+  <p class="placeHolder">You will <span>
+    <input placeholder="Verb"></input> </span>
+     it every day," said the <span>
+       <input placeholder="Noun"></input></span>
+        in a <span>
+          <input placeholder="Adjective"></input> </span>
+           tone</p>
+  <p class="placeHolder">Unpleased, I <span>
+    <input placeholder="Adverb"></input></span> <span>
+      <input placeholder="Verb"></input></span>
+       a <span>
+        <input placeholder="Noun"></input></span></p>
+  <button type="button" onlick="displayAnswers()">
   <div class="render">Render</div>
+</button>
+  <p class='placeholders"> </p>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
 </body>
