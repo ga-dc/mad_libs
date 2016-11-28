@@ -8,11 +8,39 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
+  <!-- <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
   <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>-->
 
-  <div class="render">Render</div>
+  <div class="story">
+
+    <p>"This is a <span id="firstNoun">_______</span> there are many like it, but this one is yours</p>
+    <p>You will <span id="firstVerb">_______</span> it every day," said the <span id="secondNoun">_______</span> in a <span id="firstAdjective">_______</span> tone</p>
+    <p>Unpleased, I <span id="firstAdverb">_______</span> <span id="secondVerb">_______</span> a <span id="thirdNoun">_______</span></p>
+
+    <div>
+      <button type="submit" class="btn-primary btn-lg" id="play-button">Play Again?</button>
+    </div>
+
+  </div>
+
+  <!-- <div class="render">Render</div> -->
+
+  <form name="name-form" id="name-form">
+    <input type="text" name="noun" id="noun" placeholder"Enter a noun">
+    <input type="text" name="noun2" id="noun2" placeholder"Enter a noun">
+    <input type="text" name="noun3" id="noun3" placeholder"Enter a noun">
+    <input type="text" name="verb" id="verb" placeholder"Enter a verb">
+    <input type="text" name="verb2" id="verb2" placeholder"Enter a verb">
+    <input type="text" name="adverb" id="adverb" placeholder"Enter an adverb">
+    <input type="text" name="adjective" id="adjective" placeholder"Enter an adjective">
+  </form>
+
+
+  <button type="submit" name="btn-show" id="btn-show" value="Show" placeholder="Show">Submit</button>
+
+
+
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
   <script src="script.js"></script>
 </body>
