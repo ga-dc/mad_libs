@@ -22,6 +22,23 @@ h1{
   letter-spacing:.05em;
 }
 
+button {
+  widows: 200px;
+  height: 50px;
+  background: red;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#play-btn {
+  width: 200px;
+  height: 50px;
+  background: red;
+  color: white;
+}
+
 .render{
   border: 2px solid #fff;
   display:inline-block;
