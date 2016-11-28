@@ -35,3 +35,15 @@ h1{
   background: #fff;
   color: #3D1D6B;
 }
+
+form {
+  display: inline;
+  margin: 4px;
+}
+
+input {
+  display: inline;
+  padding: 4px;
+  font-size: 110%;
+  width: 10%;
+}
