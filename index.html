@@ -7,13 +7,30 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+  <div class="container">
+    <h1>Mad Libs!</h1>
+    <h3>No filler, all killer</h3>
 
-  <div class="render">Render</div>
-  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-  <script src="script.js"></script>
+    <div class="inputs">
+    <input type="text" name="fname" id="inputone" placeholder="noun"></input>
+    <input type="text" name="fname" id="inputtwo" placeholder="verb"></input>
+    <input type="text" name="fname" id="inputthree" placeholder="noun"></input>
+  </br>
+    <input type="text" name="fname" id="inputfour" placeholder="adjective"></input>
+    <input type="text" name="fname" id="inputfive" placeholder="adverb"></input>
+    <input type="text" name="fname" id="inputsix" placeholder="verb"></input>
+    <input type="text" name="fname" id="inputseven" placeholder="noun"></input>
+    </div>
+
+    <div class="results-container">
+    <p class="results-text">
+      This is a <span class="one">__________</span> . There are many like it, but this one is yours. </br>You will <span class="two">__________</span> it every day," said the <span class="three">__________</span> in a <span class="four">__________</span> tone. </br>Unpleased, I <span class="five">__________</span> <span class="six">__________</span> a <span class="seven">__________</span>.
+    </p>
+  </div>
+    <div class="render">Show Me!</div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>

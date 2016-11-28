@@ -1,29 +1,68 @@
 html{
   text-align:center;
   height: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9c7ee8+0,4e1e9a+100 */
-  background: #9c7ee8; /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #9c7ee8 0%, #4e1e9a 100%); /* FF3.6+ */
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9c7ee8), color-stop(100%,#4e1e9a)); /* Chrome,Safari4+ */
-  background: -webkit-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* Opera 12+ */
-  background: -ms-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* IE10+ */
-  background: radial-gradient(ellipse at center, #9c7ee8 0%,#4e1e9a 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c7ee8', endColorstr='#4e1e9a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9c7ee8+0,4e1e9a+100
+  background: #9c7ee8;  Old browsers
+  background: -moz-radial-gradient(center, ellipse cover, #9c7ee8 0%, #4e1e9a 100%); /* FF3.6+
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#9c7ee8), color-stop(100%,#4e1e9a)); /* Chrome,Safari4+
+  background: -webkit-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* Chrome10+,Safari5.1+
+  background: -o-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* Opera 12+
+  background: -ms-radial-gradient(center, ellipse cover, #9c7ee8 0%,#4e1e9a 100%); /* IE10+
+  background: radial-gradient(ellipse at center, #9c7ee8 0%,#4e1e9a 100%); /* W3C
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9c7ee8', endColorstr='#4e1e9a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient
+  */
   color: #fff;
-  font-family: Lato, sans-serif;
+  font-family: sans-serif;
   font-size:1.5em;
+}
+
+body {
+  background: url("images/gradient.jpg") no-repeat;
+  background-position: center top;
+
 }
 
 h1{
   font-family: "Luckiest Guy";
-  font-size:4em;
-  text-shadow: .05em .05em 0 #3D1D6B;
+  font-size:3em;
+  text-shadow: .05em .05em 0 #000;
   letter-spacing:.05em;
+  margin: 40px auto -20px;
 }
 
+h3 {
+  font-weight: normal;
+}
+p {
+  display: block;
+
+  color: black;
+}
+span {
+  color: black;
+}
+
+input {
+
+  background-color: rgba(255, 255, 255, 0.0);
+  /*border-bottom: solid 2px black;
+  border-top: none;
+  border-left: none;
+  border-right: none;*/
+  text-align: center;
+  border: solid 2px black;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 110px;
+  margin: 20px 10px;
+  padding: 10px;
+}
+
+
 .render{
-  border: 2px solid #fff;
+  color: black;
+  border: 2px solid #000;
+  border-radius: 10px;
   display:inline-block;
   margin-top:2em;
   padding:.5em 1em;
@@ -32,6 +71,7 @@ h1{
 }
 
 .render:hover{
-  background: #fff;
-  color: #3D1D6B;
+  color: white;
+  border-color: white;
+
 }
