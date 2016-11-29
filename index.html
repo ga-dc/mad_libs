@@ -8,9 +8,21 @@
 </head>
 <body>
   <h1>Mad Libs!</h1>
-  <p>"This is a <span> |||noun||| </span> there are many like it, but this one is yours</p>
-  <p>You will <span> |||verb||| </span> it every day," said the <span> |||noun||| </span> in a <span> |||adjective||| </span> tone</p>
-  <p>Unpleased, I <span> |||adverb||| </span> <span> |||verb||| </span> a <span> |||noun||| </span></p>
+    <form action="input_form" class="input_form">
+       <input type="text" class="noun1" value="Noun">
+       <input type="text" class="verb1" value="Verb">
+       <input type="text" class="noun2" value="Noun">
+       <input type="text" class="adjective1" value="Adjective">
+       <input type="text" class="adverb1" value="Adverb">
+       <input type="text" class="verb2" value="Verb">
+       <input type="text" class="noun3" value="Noun">
+     </form>
+
+  <form class="render_form" name="render_form">
+  <p>"This is a <span id="first_noun"> (NOUN) </span> there are many like it, but this one is yours</p>
+  <p>You will <span id="first_verb"> (VERB) </span> it every day," said the <span id="second_noun"> (NOUN) </span> in a <span id="first_adjective"> (ADJECTIVE) </span> tone</p>
+  <p>Unpleased, I <span id="first_adverb"> (ADVERB) </span> <span id="second_verb"> (VERB) </span> a <span id="third_noun"> (NOUN) </span></p>
+  </form>
 
   <div class="render">Render</div>
   <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
