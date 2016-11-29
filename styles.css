@@ -22,6 +22,10 @@ h1{
   letter-spacing:.05em;
 }
 
+.input_form {
+  display: inline-block;
+}
+
 .render{
   border: 2px solid #fff;
   display:inline-block;
